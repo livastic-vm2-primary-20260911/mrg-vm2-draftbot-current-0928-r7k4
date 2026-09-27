@@ -5,7 +5,6 @@ queue_rules:
   - name: vm2 draftbot current revalidation
     batch_size: 1
     max_checks_retries: 1
-    draft_bot_account: livastic-vm2-secondary-20260911
     queue_conditions:
       - base = main
       - title = VM2_DRAFTBOT_CURRENT_0928
